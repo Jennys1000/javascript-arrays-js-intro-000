@@ -29,4 +29,3 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   chocolateBars.pop()
   return chocolateBars
 }
-
