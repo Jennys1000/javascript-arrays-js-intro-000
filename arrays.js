@@ -8,7 +8,7 @@ return chocolateBars
 }
 
 function addElementToEndOfArray(chocolateBars, reeses) {
-return [chocolateBars,...reeses]
+return [chocolateBars, ...reeses]
 }
 
 function destructivelyAddElementToEndOfArray(chocolateBars, reeses) {
