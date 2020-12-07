@@ -3,7 +3,8 @@ function addElementToBeginningOfArray(chocolateBars, reeses) {
  return [reeses, ...chocolateBars]
 }
 function destructivelyAddElementToBeginningOfArray(chocolateBars, reeses) {
-return chocolateBars.unshift(reeses)
+chocolateBars.unshift(reeses)
+return chocolateBars
 }
 
 function addElementToEndOfArray(chocolateBars, reeses) {
@@ -11,5 +12,6 @@ return [chocolateBars, ...reeses]
 }
 
 function destructivelyAddElementToEndOfArray(chocolateBars, reeses) {
-   return chocolateBars.push(reeses)
+  chocolateBars.push(reeses)
+  return chocolateBars
 }
